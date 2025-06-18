@@ -104,7 +104,7 @@ npx playwright test --headed
 ```text
 1. Validate that the Phone field shows a valid number and Save is disabled
 2. Clear the Phone field
-3. Enter a new valid 10-digit phone number (e.g., 9876543210)
+3. Enter a new valid 10-digit phone number 
 4. Confirm that Save becomes enabled
 5. Click Save
 6. Validate that a confirmation message is displayed

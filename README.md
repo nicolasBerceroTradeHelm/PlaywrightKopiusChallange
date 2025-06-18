@@ -43,8 +43,9 @@ npx playwright test
 
 npx playwright test --headed
 
+---
 
-# 📝 Part 2 – Functional test case
+### 📝 Part 2 – Functional test case
 
 User Story:
 As a user, I want to edit my phone number in the profile section so I can keep my contact

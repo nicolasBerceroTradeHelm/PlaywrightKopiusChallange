@@ -3,7 +3,8 @@
 
 This project is an automated test suite built with [Playwright](https://playwright.dev/) for validating core functionality of the Playwright documentation website. It follows a **Page Object Model (POM)** design to ensure modular, maintainable, and scalable test code.
 
-Autor Nicolas Bercero
+Autor 
+-Nicolas Bercero
 
 This Playwright test project automates the functional validation of the Playwright documentation site
 It uses a modular Page Object Model (POM) structure to promote code reusability and maintainability
@@ -41,11 +42,10 @@ npx playwright test
 
 2. Run the Test
 
-npx playwright test --headed
+npx playwright test --headed 
+```
 
----
-
-### 📝 Part 2 – Functional test case
+# 📝 Part 2 – Functional test case
 
 User Story:
 As a user, I want to edit my phone number in the profile section so I can keep my contact

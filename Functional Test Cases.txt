@@ -1,0 +1,45 @@
+User Story:
+As a user, I want to edit my phone number in the profile section so I can keep my contact
+information up to date.
+Acceptance Criteria:
+● The "Phone" field shows the current phone number.
+● The Save button is only enabled if the field was modified with a valid value.
+● The phone number must be validated (10 numeric digits).
+● A confirmation message appears after saving.
+● If there's a network error, a clear error message must be displayed.
+
+Test Case:
+Edit Phone Number with Valid Input and Handle Network Failure
+
+Test Data
+Figma Mockups
+Valid Phone Numbers
+Valid User
+
+Preconditions:
+User is logged in (Valid LogIn)
+User navigates to the Profile section
+The Phone field is visible and displays the current phone number.
+
+1 - Validate that a valid phone number is on the Phone field and the save button is disabled by default
+2 - Clear the Phone field
+3 - Fill a new valid Phone Number
+4 - Validate that save button is enabled as soon as a valid phone number is inputed
+5 - click Save
+6 - A confirmation Message appears after saving
+
+Expected Result:
+After entering a valid 10-digit number, the Save button becomes active
+When Save is clicked and a network error occurs:
+    A error message appears
+    No change is saved
+
+To simulate an error, you can do it the complicated way using DevTools by blocking the save request to simulate a failed submission, or by using tools like Requestly to mimic this scenario
+You could also modify the back end to temporarily return the expected error response
+There's also the easy way — simply turn off your network or Wi-Fi before clicking Save
+
+To accurately test the error message:
+First, confirm that the error is correctly shown through the UI after the expected steps are performed
+Then verify the message text and style according to the design or UX guidelines
+Ensure that the page doesn't crash or reload unexpectedly
+Depending on the type of request failure, confirm that the error is logged and handled correctly (i.e., no unhandled exceptions in the console)

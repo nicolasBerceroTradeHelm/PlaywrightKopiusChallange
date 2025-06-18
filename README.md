@@ -1,4 +1,4 @@
-# PlayWrightTestKopius
+# PlaywrightTestKopius
 Playwright Challenge
 
 This project is an automated test suite built with Playwright for validating core functionality of the Playwright documentation website. It follows a Page Object Model (POM) design to ensure modular, maintainable, and scalable test code.

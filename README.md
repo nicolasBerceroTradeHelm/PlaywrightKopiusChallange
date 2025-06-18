@@ -7,13 +7,16 @@ This project is an automated test suite built with [Playwright](https://playwrig
 
 ## 📁 Project Structure
 
+```text
+.
 ├── pages/
-│ ├── pageActions.page.js # Encapsulates user interactions (POM)
-│ └── pageObjects.js # Reusable dynamic locator utilities
+│   ├── pageActions.page.js       # Encapsulates user interactions (POM)
+│   └── pageObjects.js            # Reusable dynamic locator utilities
 ├── tests/
-│ └── playwright-docs.spec.js # Functional test cases
+│   └── playwright-docs.spec.js   # Functional test cases
 ├── package.json
 └── README.md
+
 
 ### 1. Install dependencies
 

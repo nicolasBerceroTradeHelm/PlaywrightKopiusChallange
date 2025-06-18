@@ -18,11 +18,11 @@ This project is an automated test suite built with [Playwright](https://playwrig
 └── README.md
 
 
-### 1. Install dependencies
+1. Install dependencies
 
 npx playwright test
 
-### 2. Run the Test
+2. Run the Test
 
 npx playwright test --headed
 
